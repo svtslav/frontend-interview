@@ -1,4 +1,4 @@
-/** 1. Что выведет код в консоль? */
+/** 1. что выводится в консоль? */
 
 const p = new Promise((resolve) => resolve(true));
 p.then(() => {
@@ -8,7 +8,7 @@ p.then(() => {
 console.log('C');
 
 
-/** 2. Что выведет код в консоль? */
+/** 2. что выводится в консоль? */
 
 const key1 = { key: 'apple' };
 const key2 = { key: 'orange' };
@@ -21,7 +21,7 @@ prices[key2] = 10;
 console.log(prices[key1]);
 console.log(prices[key2]);
 
-/** 3. Что необходимо изменить, чтобы код работал корректно? */
+/** 3. Что необходимо изменить, чтобы код работал корректно и на экран вывел значения 5 и 10? */
 
 const key1 = { key: 'apple' };
 const key2 = { key: 'orange' };
