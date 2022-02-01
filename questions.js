@@ -76,3 +76,9 @@ console.log('b', b);
 
 var a = 19;
 let b = 94;
+
+/** Что будет выведено в консоль? */
+
+console.log("2" + 1);
+console.log("2" - 1);
+
