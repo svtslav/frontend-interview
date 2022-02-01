@@ -1,4 +1,4 @@
-/** 1. что выводится в консоль? */
+/** 1. Что будет выведено в консоль? */
 
 const p = new Promise((resolve) => resolve(true));
 p.then(() => {
@@ -8,7 +8,7 @@ p.then(() => {
 console.log('C');
 
 
-/** 2. что выводится в консоль? */
+/** 2. Что будет выведено в консоль? */
 
 const key1 = { key: 'apple' };
 const key2 = { key: 'orange' };
