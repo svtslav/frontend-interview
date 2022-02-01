@@ -65,5 +65,14 @@ const result = {
 };
 
 /** 5. Напишите функцию суммирования двух чисел */
+
 const sum = add(6)(9); 
 console.log(sum); // 15
+
+/** 6. Что будет выведено в консоль? */
+
+console.log('a', a);
+console.log('b', b);
+
+var a = 19;
+let b = 94;
