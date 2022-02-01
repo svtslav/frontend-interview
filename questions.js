@@ -64,3 +64,6 @@ const result = {
     KEY7: 7,
 };
 
+/** 5. Напишите функцию суммирования двух чисел */
+const sum = add(6)(9); 
+console.log(sum); // 15
