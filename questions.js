@@ -122,3 +122,8 @@ const secondArr = [3, 4, 5, 6];
 function intersection(arr1, arr2) { }
 
 intersection(firstArr, secondArr); // [3, 4]
+
+/** 12. Что будет выведено в консоль? */
+
+console.log(1 === "1");
+console.log(1 == "1");
