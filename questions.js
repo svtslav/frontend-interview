@@ -113,3 +113,12 @@ secondObj.key2 = 22;
 
 console.log(firstObj);
 console.log(secondObj);
+
+/** 11. Напишите функцию intersection(arr1, arr2) для нахождения пересечения двух массивов arr1 и arr2. */
+
+const firstArr = [1, 2, 3, 4];
+const secondArr = [3, 4, 5, 6];
+
+function intersection(arr1, arr2) { }
+
+intersection(firstArr, secondArr); // [3, 4]
