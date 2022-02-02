@@ -121,7 +121,8 @@ const secondArr = [3, 4, 5, 6];
 
 function intersection(arr1, arr2) { }
 
-intersection(firstArr, secondArr); // [3, 4]
+const intersectionResult = intersection(firstArr, secondArr); 
+console.log(intersectionResult); // [3, 4]
 
 /** 12. Что будет выведено в консоль? */
 
