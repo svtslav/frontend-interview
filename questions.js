@@ -98,3 +98,18 @@ const volwes = ["а", "о", "у", "е", "ё", "ы", "э", "и", "ю", "я"];
 
 const sentence = "Обвал на Московской бирже позволил пенсионерки из Саратова попасть в список Форбс"; // 26
 
+/** 10. Что будет выведено в консоль? */
+
+const firstObj = {
+    key1: 1,
+    key2: 2,
+    key3: 3,
+};
+
+const secondObj = firstObj;
+
+firstObj.key1 = 11;
+secondObj.key2 = 22;
+
+console.log(firstObj);
+console.log(secondObj);
