@@ -129,3 +129,11 @@ console.log(intersectionResult); // [3, 4]
 console.log(1 === "1");
 console.log(1 == "1");
 console.log(true + true);
+
+/** 13. Что будет выведено в консоль? */
+
+console.log('start');
+setTimeout(function() {
+  console.log('setTimeout');
+}, 0);
+console.log('end');
